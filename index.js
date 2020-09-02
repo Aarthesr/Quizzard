@@ -1,0 +1,2 @@
+Splitting();
+new universalParallax().init();
