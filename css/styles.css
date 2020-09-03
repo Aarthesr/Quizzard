@@ -39,7 +39,7 @@ div.bg-holder[data-width="thinnest"] { width: 100%; }
 }
 
 .pic1 {
-  background-image: url('/images/hp-bg.jpg');
+  background-image: url('Quizzard/images/hp-bg.jpg');
 }
 
 .pic2 {
