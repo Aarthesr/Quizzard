@@ -1,7 +1,7 @@
 html,body{
-    background-color: gray;
-    height: 100%;
-    width: 100%;
+  background-color: gray;
+  height: 100%;
+  width: 100%;
 }
 
 /* text near images */
@@ -9,254 +9,269 @@ html,body{
 div.bg-holder[data-width="thinnest"] { width: 100%; }
 /* parallax effect */
 .parallax{
-    height: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 /* Backgrounds */
 
 .bg-holder {
-  width: 100%;
-  height: 80%;
-  background-size: cover;
-  background-position: 50% 50%;
-  color: #fff;
+width: 100%;
+height: 80%;
+background-size: cover;
+background-position: 50% 50%;
+color: #fff;
 }
 
 .bg-holder .content {
-  color: #fff;
-  text-align: center;
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
+color: #fff;
+text-align: center;
+position: relative;
+top: 50%;
+-webkit-transform: translateY(-50%);
+-moz-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+-o-transform: translateY(-50%);
+transform: translateY(-50%);
 }
 
 .pic1 {
-  background-image: url('../images/hp-bg.jpg');
+background-image: url('../images/hp-bg.jpg');
 }
 
 .pic2 {
-  background-image: url("../images/twi-bg.jpg")
+background-image: url("../images/twi-bg.jpg")
 }
 
 .pic3 {
-  background-image: url('../images/air-bg.jpg');
+background-image: url('../images/air-bg.jpg');
+}
+
+.pic4{
+  background-image: url("../images/train-bg.jpg");
 }
 
 
 /* header and nav */
 
 .container-fluid{
-    padding-right: 0;
-    padding-left: 0;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 
 .nav-link{
-    color: black;
+  color: black;
 }
 
 #title{
-    background-color: aqua;
-    background-image: url("../images/bg.jpg");
-    
-    
+  background-color: aqua;
+  background-image: url("../images/bg.jpg");
+  
+  
 }
 
 @keyframes tipsy {
-    0 {
-      transform: translateX(-50%) translateY(-50%) rotate(0deg);
-    }
-    100% {
-      transform: translateX(-50%) translateY(-50%) rotate(360deg);
-    }
-  }
-  
-  body {
-    font-family: helvetica, arial, sans-serif;
-  /*   background-color: #2e2e31; */
-    background-color: white;
-  }
-  
-  a.head {
-  /*   color: #fffbf1; */
-    color: black;
-    padding: 0 20px;
-    text-shadow: 0 20px 25px #2e2e31, 0 40px 60px #2e2e31;
-    font-size: 50px;
-    font-weight: bold;
-    text-decoration: none;
-    letter-spacing: -3px;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-  }
-  
-  a.head:before,
-  a.head:after {
-    content: '';
-    /* padding: .9em .4em; */
-    padding: 10% 20%;
-    position: absolute;
-    left: 50%;
-    width: 100%;
-    top: 50%;
-    display: block;
-    border: 15px solid red;
+  0 {
     transform: translateX(-50%) translateY(-50%) rotate(0deg);
-    animation: 30s infinite alternate ease-in-out tipsy;
   }
-  
-  a.head:before {
-    border-color: #d9524a #d9524a rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
-    z-index: -1;
+  100% {
+    transform: translateX(-50%) translateY(-50%) rotate(360deg);
   }
-  
-  a.head:after {
-    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #d9524a #d9524a;
-    box-shadow: 25px 25px 25px rgba(46, 46, 49, .8);
-  }
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+/*   background-color: #2e2e31; */
+  background-color: white;
+}
+
+a.head {
+/*   color: #fffbf1; */
+  color: black;
+  padding: 0 20px;
+  text-shadow: 0 20px 25px #2e2e31, 0 40px 60px #2e2e31;
+  font-size: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: -3px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+a.head:before,
+a.head:after {
+  content: '';
+  /* padding: .9em .4em; */
+  padding: 10% 20%;
+  position: absolute;
+  left: 50%;
+  width: 100%;
+  top: 50%;
+  display: block;
+  border: 15px solid red;
+  transform: translateX(-50%) translateY(-50%) rotate(0deg);
+  animation: 20s infinite alternate ease-in-out tipsy;
+}
+
+a.head:before {
+  border-color: #d9524a #d9524a rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  z-index: -1;
+}
+
+a.head:after {
+  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #d9524a #d9524a;
+  box-shadow: 25px 25px 25px rgba(46, 46, 49, .8);
+}
 
 
 
 
-  /* harry potter */
-  .hp{
-      /* background-color: #59405c; */
-      background-color: #1a1a2e;
-      /* background-image: url("hp-bg.jpg"); */
-      padding: 15%;
-      height: 100%;
-      
-  }
-
-  .title {
-    position: relative;
-    text-align: center;
-    transform: translateZ(0);
-    transform-style: preserve-3d;
-    padding: 3%;
-  }
-  
-  .title .text {
-    font-family: sans-serif;
-    font-weight: 400;
-    font-size: calc(20vw / var(--word-total) );
-    line-height: 1.0;
-  }
-  
-  .title .write .word {
-    color: black;
-    text-shadow: 0 0 0.1em currentColor;
-    transform-style: preserve-3d;
-    animation: write linear both;
-  }
-  
-  .title .laser {
-    position: absolute;
-    top: 0;
-    left: 0;
-    /* To avoid the blur getting masked by the clip-path we had to duplicate the element */
-    filter: blur(4px) contrast(10);
-    pointer-events: none;
-  }
-  
-  .title .laser .word {
-    display: inline-block;
-  }
-  
-  .title .laser .word {
-    /* color: hsl(0, 100%, 75%); */
-    color: #cd0a0a;
-    text-shadow: 0 0 0.1em currentColor;
-    transform: translateZ(5px);
-    animation: laser linear both;
-  }
-  
-  .title .write .word,
-  .title .laser .word {
-    animation-duration: 4s;
-    animation-delay: calc(0.3s + var(--word-index) * 160ms);
-    animation-iteration-count: infinite;
-  }
-/*   
-  .title:hover .word {
-    animation-play-state: paused;
-  } */
-  
-  /* .title .text .word,
-  .title .text .word::before {
-    animation-play-state: paused;
-    animation-delay: -0.4s;
-  } */
-  
-  @keyframes write {
-    from, 30% { clip-path: polygon(-20% 0%, -15% 0%, -15% 100%, -20% 100%) }
-    70%, to { clip-path: polygon(-15% 0%, 120% 0%, 120% 100%, -15% 100%) }
-  }
-  
-  @keyframes laser {
-    from, 30% { clip-path: polygon(-20% 0%, -15% 0%, -15% 100%, -20% 100%) }
-    70%, to { clip-path: polygon(115% 0%, 120% 0%, 120% 100%, 115% 100%) }
-  }
-
-  .btn-hp{
-      background-color: #ffe4e4;
-      margin: 3%;
-      padding: 2%;
-      color: #202040;
-  }
- 
-
-  /* twilight */
-
-  .tw{
-    background-color: #8d93ab;
-    /* background-color: #1a1a2e; */
-    /* background-image: url("twi-bg.jpg"); */
+/* harry potter */
+.hp{
+    /* background-color: #59405c; */
+    background-color: #1a1a2e;
+    /* background-image: url("hp-bg.jpg"); */
     padding: 15%;
     height: 100%;
+}
+
+.title {
+  position: relative;
+  text-align: center;
+  transform: translateZ(0);
+  transform-style: preserve-3d;
+  padding: 3%;
+}
+
+.title .text {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: calc(20vw / var(--word-total) );
+  line-height: 1.0;
+}
+
+.title .write .word {
+  color: white;
+  text-shadow: 0 0 0.1em currentColor;
+  transform-style: preserve-3d;
+  animation: write linear both;
+}
+
+
+.title .laser {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* To avoid the blur getting masked by the clip-path we had to duplicate the element */
+  filter: blur(4px) contrast(10);
+  pointer-events: none;
+}
+
+.title .laser .word {
+  display: inline-block;
+}
+
+.title .laser .word {
+  /* color: hsl(0, 100%, 75%); */
+  color: #cd0a0a;
+  text-shadow: 0 0 0.1em currentColor;
+  transform: translateZ(5px);
+  animation: laser linear both;
+}
+
+.title .write .word,
+.title .laser .word {
+  animation-duration: 4s;
+  animation-delay: calc(0.3s + var(--word-index) * 160ms);
+  animation-iteration-count: infinite;
+}
+/*   
+.title:hover .word {
+  animation-play-state: paused;
+} */
+
+/* .title .text .word,
+.title .text .word::before {
+  animation-play-state: paused;
+  animation-delay: -0.4s;
+} */
+
+@keyframes write {
+  from, 30% { clip-path: polygon(-20% 0%, -15% 0%, -15% 100%, -20% 100%) }
+  70%, to { clip-path: polygon(-15% 0%, 120% 0%, 120% 100%, -15% 100%) }
+}
+
+@keyframes laser {
+  from, 30% { clip-path: polygon(-20% 0%, -15% 0%, -15% 100%, -20% 100%) }
+  70%, to { clip-path: polygon(115% 0%, 120% 0%, 120% 100%, 115% 100%) }
+}
+
+.btn-hp{
+    background-color: #ffe4e4;
+    margin: 3%;
+    padding: 2%;
+    color: #202040;
+}
+
+
+/* twilight */
+
+.tw{
+  background-color: #8d93ab;
+  /* background-color: #1a1a2e; */
+  /* background-image: url("twi-bg.jpg"); */
+  padding: 15%;
+  height: 100%;
 }
 
 
 
 
 .air{
-    /* background-color: #59405c; */
-    background-color: #1a1a2e;
-    
-    padding: 15%;
-    height: 100%;
+  /* background-color: #59405c; */
+  background-color: #1a1a2e;
+  opacity: 0.8;
+  padding: 15%;
+  height: 100%;
 }
 
 
 
 @media (max-width: 700px){
-    .hp,.tw,.air {
-        padding-top: 200px;
-    }
-    .title .text{
-        font-size: 3rem;
-    }
+  .hp,.tw,.air {
+      padding-top: 200px;
+  }
+  .title .text{
+      font-size: 3rem;
+  }
 
-    .pic1 {
-      background-image: url('../images/hp-bg.jpg');
-    }
-    
-    .pic2 {
-      background-image: url("../images/twi-bg.jpg")
-    }
-    
-    .pic3 {
-      background-image: url('../images/air-bg.jpg');
-    }
+  .pic1 {
+    background-image: url('../images/hp-bg.jpg');
+  }
+  
+  .pic2 {
+    background-image: url("../images/twi-bg.jpg")
+  }
+  
+  .pic3 {
+    background-image: url('../images/air-bg.jpg');
+  }
+  
+  .pic4{
+    background-image: url("../images/train-bg.jpg");
+  }
+}
+
+#footer{
+  text-align: center;
+  padding: 1%;
+  color: white;
+  background-color: transparent;
 }
