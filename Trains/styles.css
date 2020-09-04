@@ -106,7 +106,7 @@ body::after {
 
   @media (max-width : 700px){
     .navbar-brand{
-        font-size: 50px;
+        font-size: 30px;
         margin: 0 1% 0 1%;
     }
 
