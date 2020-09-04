@@ -1,0 +1,136 @@
+/* .content{
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: relative;
+    opacity: 0.5;
+} */
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+body::after {
+    content: "";
+    background: url("images/bg.jpg");
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: -1;   
+  }
+
+  img{
+      text-align: center;
+      width: 30%;
+      height: 30%;
+      margin: 5%;
+  }
+
+  h6{
+      display: inline-block;
+      font-size: 40px;
+      margin: 3%;
+  }
+
+  .bg{
+    background-color: #c9e265;
+}
+  .btn{
+      margin: 3%;
+      border: 3px solid white;
+      border-radius: 15%;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    margin-bottom: 30px;
+    text-align: left;
+    background-color: #c9e265;
+    opacity: 0.85;
+    width: 40rem;
+  }
+
+  .card-body{
+      margin: 0 ;
+  }
+
+  .data{
+      text-align: left;
+      
+  }
+  .menu{
+    color: white;
+}
+  .navbar-inner{
+      background: transparent;
+  }
+
+  .navbar{
+      padding: 3% 5% 3% 5%;
+  }
+
+  .navbar-brand{
+    color: white;
+    /* text-align: center; */
+    font-size: 50px;
+    /* margin-left: 68px; */
+    /* padding-left: 50px; */
+    /* padding-right: 100px; */
+    font-family: 'Do Hyeon', sans-serif;
+  }
+
+  .nav-link{
+    color: black;
+    font-family: 'Alata', sans-serif;
+}
+  .w3-button{
+      font-size: 15px;
+  }
+  .w3-sidebar{
+      display:none;
+      right:0;
+      background-color: #bb9145;
+  }
+
+  #menu-button{
+      background-color: #bb9145;
+      border: 2px solid white;
+  }
+  .ques{
+      text-align: left !important;
+  }
+  #brand{
+      color: white;
+      /* font-size: 20px !important; */
+      border: 2px solid white;
+      padding: 1%;
+      border-radius: 25%;
+  }
+
+  @media (max-width : 700px){
+    .navbar-brand{
+        font-size: 30px;
+        margin: 0 1% 0 1%;
+    }
+
+    .card{
+        width: 20rem;
+    }
+
+    img{
+        width: 50%;
+      height: 50%;
+    }
+}
+
+#footer{
+    text-align: center;
+    padding: 1%;
+    color: white;
+  }
+
+  
+  
+ 
