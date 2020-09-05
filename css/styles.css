@@ -214,10 +214,38 @@ a.head:after {
 }
 
 .btn-hp{
-    background-color: #ffe4e4;
+    background-color: #2b2e4a;
     margin: 3%;
     padding: 2%;
-    color: #202040;
+    color: whitesmoke;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: all 0.5s;
+  cursor: pointer;
+}
+
+.btn-hp span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn-hp span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn-hp:hover span {
+  padding-right: 25px;
+}
+
+.btn-hp:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 
@@ -242,11 +270,17 @@ a.head:after {
   height: 100%;
 }
 
-
+.trains{
+  background-color: #8d93ab;
+  /* background-color: #1a1a2e; */
+  /* background-image: url("twi-bg.jpg"); */
+  padding: 15%;
+  height: 100%;
+}
 
 @media (max-width: 700px){
   .hp,.tw,.air {
-      padding-top: 200px;
+      padding-top: 0px;
   }
   .title .text{
       font-size: 3rem;
